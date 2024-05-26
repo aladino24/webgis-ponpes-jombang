@@ -7,7 +7,6 @@ import FilterForm from './FilterForm';
 import PesantrenJombang from './pesantren_jombang.geojson';
 import KabupatenJombang from './KABUPATEN_JOMBANG.geojson';
 
-
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -24,7 +23,7 @@ const MapComponent = () => {
   const [kelurahanList, setKelurahanList] = useState([]);
 
   useEffect(() => {
-    fetch(PesantrenJombang) 
+    fetch(PesantrenJombang)
       .then(response => response.json())
       .then(data => {
         const newMarkers = data.features.map(feature => ({
@@ -73,7 +72,7 @@ const MapComponent = () => {
 
   return (
     <div className="map-container">
-      <MapContainer center={[-7.5492, 112.2333]} zoom={13} style={{ height: "100vh", width: "100%" }}>
+      <MapContainer center={[-7.5492, 112.2333]} zoom={11} style={{ height: "100vh", width: "100%" }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

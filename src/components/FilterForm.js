@@ -1,23 +1,35 @@
 import React, { useState } from 'react';
 import './FilterForm.css';
 
-const FilterForm = (props) => {
-  const { onFilter, kecamatanList, kelurahanList, style } = props;
-  const [district, setDistrict] = useState('');
+const FilterForm = ({ onFilter, kecamatanList, kelurahanList, style }) => {
+  const [kecamatan, setKecamatan] = useState('');
   const [kelurahan, setKelurahan] = useState('');
   const [status, setStatus] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onFilter({ district, kelurahan, status });
+  const handleFilterChange = (field, value) => {
+    if (field === 'kecamatan') {
+      setKecamatan(value);
+    } else if (field === 'kelurahan') {
+      setKelurahan(value);
+    } else if (field === 'status') {
+      setStatus(value);
+    }
+
+    const newFilters = {
+      kecamatan: field === 'kecamatan' ? value : kecamatan,
+      kelurahan: field === 'kelurahan' ? value : kelurahan,
+      status: field === 'status' ? value : status,
+    };
+
+    onFilter(newFilters);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="filter-form" style={style}>
+    <form className="filter-form" style={style}>
       <label>
         Kecamatan:
-        <select value={district} onChange={(e) => setDistrict(e.target.value)}>
-          <option value="">Pilih Kecamatan</option>
+        <select value={kecamatan} onChange={(e) => handleFilterChange('kecamatan', e.target.value)}>
+          <option value="">Pilih Semua</option>
           {kecamatanList.map((kecamatan, index) => (
             <option key={index} value={kecamatan}>{kecamatan}</option>
           ))}
@@ -25,8 +37,8 @@ const FilterForm = (props) => {
       </label>
       <label>
         Kelurahan:
-        <select value={kelurahan} onChange={(e) => setKelurahan(e.target.value)}>
-          <option value="">Pilih Kelurahan</option>
+        <select value={kelurahan} onChange={(e) => handleFilterChange('kelurahan', e.target.value)}>
+          <option value="">Pilih Semua</option>
           {kelurahanList.map((kelurahan, index) => (
             <option key={index} value={kelurahan}>{kelurahan}</option>
           ))}
@@ -34,13 +46,12 @@ const FilterForm = (props) => {
       </label>
       <label>
         Status:
-        <select value={status} onChange={(e) => setStatus(e.target.value)}>
+        <select value={status} onChange={(e) => handleFilterChange('status', e.target.value)}>
           <option value="">Pilih Status</option>
           <option value="Aktif">Aktif</option>
           <option value="Tidak Aktif">Tidak Aktif</option>
         </select>
       </label>
-      <button type="submit">Filter</button>
     </form>
   );
 };
