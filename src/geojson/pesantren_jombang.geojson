@@ -1,0 +1,3141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. UMAR ZAHID",
+                "kelurahan": "Kayen",
+                "kecamatan": "Bandar Kedung Mulyo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.14216919019304,
+                    -7.575517571253557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Ashfiya’",
+                "kelurahan": "Brodot",
+                "kecamatan": "Bandar Kedung Mulyo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.11867477947483,
+                    -7.561356686402522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Hidayatul Qur’an",
+                "kelurahan": "Sentul",
+                "kecamatan": "Tembelang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23119836752333,
+                    -7.469475174507726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "AL-MUNAWWIR",
+                "kelurahan": "Mojodanu",
+                "kecamatan": "Ngusikan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.33413876752269,
+                    -7.394388121204192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. PUTRI ROUDHOTU TAHFIDZIL QUR’AN",
+                "kelurahan": "Perak",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.14648677105028,
+                    -7.581310626833959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Roudhotu Tahfidzil Qur`an",
+                "kelurahan": "Perak",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.15251787779707,
+                    -7.5779692486767285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "At Tilawatil Qur’an",
+                "kelurahan": "Sukorejo",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.17934344053675,
+                    -7.565529383689107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Abror",
+                "kelurahan": "Cangkringrandu",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.19276499190907,
+                    -7.554765692733664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Gadingmangu",
+                "kelurahan": "Gadingmangu",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.16219018227392,
+                    -7.574330039117499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL IMRONIYAH",
+                "kelurahan": "Temuwulan",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.18932736752406,
+                    -7.566880724149966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Roudhotu Tahfidzil Qur’an 2",
+                "kelurahan": "Pagerwojo",
+                "kecamatan": "Perak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.14649749635974,
+                    -7.581262761534268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Kalimasada",
+                "kelurahan": "Bangsri",
+                "kecamatan": "Plandaan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.18350169635868,
+                    -7.465484221124502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Izzatul Qur’an",
+                "kelurahan": "Kayangan",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23827531170186,
+                    -7.627775709407458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "Tarbiyatunnasyi’in",
+                "kelurahan": "Jatirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24964912334707,
+                    -7.59703656456943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "ABDUL HADI",
+                "kelurahan": "Ngudirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25058559635956,
+                    -7.569132014769952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. TAHFIDHIL QUR’AN AL-MA’ARIJ",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2351526386889,
+                    -7.602271363706818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "4,12E+11",
+                "nama_pesantren": "AL-AQOBAH",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23376362860692,
+                    -7.602506605954732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Mamba’ul Hikmah",
+                "kelurahan": "Tondowulan",
+                "kecamatan": "Plandaan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.19663378101667,
+                    -7.4327086868149745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Hubbul Qur’an",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23822763584546,
+                    -7.594850584805565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,02E+11",
+                "nama_pesantren": "Pondok Pesantren Al-Hikmah",
+                "kelurahan": "Bandung",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26182478405194,
+                    -7.600818820720446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. BANI YA’QUB",
+                "kelurahan": "Bulurejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25668062721738,
+                    -7.62488753408053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Kreatif AL MUHSININ",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23752222289318,
+                    -7.615804607166522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL MAHFUDZ",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23450667970015,
+                    -7.605280406979169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "MAJMA’AL BAHRAIN SHIDDIQIYYAH",
+                "kelurahan": "Losari",
+                "kecamatan": "Ploso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22411936752313,
+                    -7.450141336047337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "TAHFIDHUL QUR’AN IBNU RUSYDI",
+                "kelurahan": "Bendet",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2442826828663,
+                    -7.612098500978962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. QUR’ANY",
+                "kelurahan": "Bulurejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25662841965075,
+                    -7.626173045783541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Entreprenuer Al-Chamid",
+                "kelurahan": "Ploso",
+                "kecamatan": "Ploso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23251198286506,
+                    -7.448873688433635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Sunan Kalijaga",
+                "kelurahan": "Ngudirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24988736752411,
+                    -7.570517503654341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. EL HUFFAZH",
+                "kelurahan": "Jelakombo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2461631990858,
+                    -7.5497905184881695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "At-Taufiq",
+                "kelurahan": "Grogol",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26247018260347,
+                    -7.601560572833975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. HIDAYATUL QUR'AN",
+                "kelurahan": "Grogol",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26271063084262,
+                    -7.590019412035602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "MADRASATUL QUR’AN",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24042110985343,
+                    -7.60525776883773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Mujahidin",
+                "kelurahan": "Bandung",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26288239635973,
+                    -7.582433686963949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Nurul Ilmi Wal Fikri",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23823309635998,
+                    -7.605611400133405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. WALISONGO",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23899609977146,
+                    -7.6093065067758054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "DARUL ULUM",
+                "kelurahan": "Balong Besuk",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23678729634321,
+                    -7.570621194991436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Salafiyah Syafi`iyah Khoiriyah Hasyim",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23533195218248,
+                    -7.605208599904233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Fathul Ulum",
+                "kelurahan": "Puton",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23920059636012,
+                    -7.643806155417697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "SAFINATUL HUDA",
+                "kelurahan": "Bandung",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25867866752438,
+                    -7.588044220391371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. Tebuireng",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23847632519544,
+                    -7.607213066641051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pondok Pesantren Falahul Muhibbin",
+                "kelurahan": "Watugaluh",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21528346752439,
+                    -7.592366862147032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,02E+11",
+                "nama_pesantren": "PPQ DARUN NAJAH DF 71",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22625614394876,
+                    -7.601343808941849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Anak Sholeh",
+                "kelurahan": "Keras",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21096335218246,
+                    -7.596378490866379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "AL-FURQON Darul Falah V",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23809843022661,
+                    -7.612532960548884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. DARUL FALAH IV",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24132534187196,
+                    -7.61222456022757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Yalatif Indonesia",
+                "kelurahan": "Kedawong",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26220078968981,
+                    -7.5803488286328005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. TAHFIDZUL QURAN FATHUL ‘ULUM",
+                "kelurahan": "Puton",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23918986752466,
+                    -7.643795521916722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. SALAFIYAH SEBLAK",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2353390601972,
+                    -7.604755201553298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Istiqomah",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24068639635995,
+                    -7.61291777003069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PONDOK PESANTREN HUDAYA",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2340967675243,
+                    -7.595984359976422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Urwatul Wutsqo",
+                "kelurahan": "Bulurejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26057323868906,
+                    -7.621004645151393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Huda",
+                "kelurahan": "Grogol",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2622784810179,
+                    -7.603032398665993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Rehabilitasi AZ-ZAHWA",
+                "kelurahan": "Grogol",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25409376752455,
+                    -7.61174263791565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP MAMBAUL HIKAM",
+                "kelurahan": "Jatirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23751339635992,
+                    -7.6030578676951235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Munawaroh",
+                "kelurahan": "Ngudirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24430579635958,
+                    -7.571455616028789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Tahfidz An-Nawawi",
+                "kelurahan": "Bendet",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24381889636008,
+                    -7.61907560780212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Madinah",
+                "kelurahan": "Diwek",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23610044210054,
+                    -7.590679934034663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Anwar",
+                "kelurahan": "Jatirejo",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24942007093597,
+                    -7.597619772455029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL-UMMAH",
+                "kelurahan": "Pandanwangi",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22256175306025,
+                    -7.576619206322915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "ROUDLOTUL QUR’AN DARUL FALAH 3",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23710920761509,
+                    -7.606139359682515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Terpadu Al-Chodidjah",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23899596752449,
+                    -7.603150933238366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. MAMBA’UL HIKAM PUTRI",
+                "kelurahan": "Kwaron",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2370680844296,
+                    -7.601050139681796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. DARUL FALAH II",
+                "kelurahan": "Cukir",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23910254210051,
+                    -7.6108584077764405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Asy’ari",
+                "kelurahan": "Keras",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23835648442957,
+                    -7.607291211889352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Tahfidh Al Ma’shumiyah",
+                "kelurahan": "Bandung",
+                "kecamatan": "Diwek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26258458374396,
+                    -7.58324514089312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Quran",
+                "kelurahan": "Badang",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25757863868951,
+                    -7.673911108202102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Nurul Qur’an",
+                "kelurahan": "Kebon Agung",
+                "kecamatan": "Ploso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.20521785218114,
+                    -7.435251588414316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Manba’ul Huda",
+                "kelurahan": "Genukwatu",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2440790532452,
+                    -7.702974568211752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Jauharurrofiiqo",
+                "kelurahan": "Gajah",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25851755403113,
+                    -7.655435928578928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "ANWARUL HUDA",
+                "kelurahan": "Genukwatu",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24523134210052,
+                    -7.701699006471264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Attahdzib",
+                "kelurahan": "Rejoagung",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27619063119955,
+                    -7.724200681542394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Ma’had Khadijah Attahdzibiyah",
+                "kelurahan": "Rejoagung",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2729726675254,
+                    -7.723429736194976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "AL WASHOYA",
+                "kelurahan": "Kertorejo",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27734529636038,
+                    -7.660336364469429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PONDOK PESANTREN WALI AMINAH",
+                "kelurahan": "Jombok",
+                "kecamatan": "Ngoro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23973269636059,
+                    -7.692135917362819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Sunan Bonang",
+                "kelurahan": "Mojojejer",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.30379602885533,
+                    -7.620737106967076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "NURUL AHMADI",
+                "kelurahan": "Catak Gayam",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.31993549635969,
+                    -7.588037420387179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "DARUL FAIZIN ASSALAFIYAH",
+                "kelurahan": "Catak Gayam",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.32120149894446,
+                    -7.588962654374016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. TAHFIDZUL QUR’AN DARUSSALAM",
+                "kelurahan": "Gondek",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28205365306023,
+                    -7.619168426319288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Tahfidzul Qur’an Al – Azhar",
+                "kelurahan": "Karanglo",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28587319954289,
+                    -7.637779586896335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Tahfidzul Qur’an",
+                "kelurahan": "Catak Gayam",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.31970722976952,
+                    -7.591024576806265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Makkiyyah Darussalam",
+                "kelurahan": "Wringinpitu",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.32311302334705,
+                    -7.58830548568112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL IKHLAS",
+                "kelurahan": "Gondek",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2764228,
+                    -7.620486948063133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PUTRI AL FATTAH",
+                "kelurahan": "Rejoslamet",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.33293494210052,
+                    -7.606655777155804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "‘Uluumul Quran Darun Najah",
+                "kelurahan": "Ploso",
+                "kecamatan": "Ploso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23153506752321,
+                    -7.451996275384089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. BAITUSSALAM",
+                "kelurahan": "Mojoduwur",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.32041680671328,
+                    -7.634726940417115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Fattah",
+                "kelurahan": "Rejoslamet",
+                "kecamatan": "Mojowarno"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.33293493868894,
+                    -7.606677038411318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pondok Pesantren Bhakti Bapak Emak",
+                "kelurahan": "Banjaragung",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.30636429636057,
+                    -7.679797775151141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Hikmah",
+                "kelurahan": "Tebel",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28280289636047,
+                    -7.6745763068289845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "DARUSSA’ADAH 11",
+                "kelurahan": "Tebel",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.282378967525,
+                    -7.676632577363047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL-AKHSAN",
+                "kelurahan": "Karangan",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.31134139817162,
+                    -7.719951938717573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Amin",
+                "kelurahan": "Ngampungan",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.31111089636052,
+                    -7.695759351735676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Raudhatul Huda",
+                "kelurahan": "Kebondalem",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27377404187199,
+                    -7.691928985409497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Usmaniyah",
+                "kelurahan": "Bareng",
+                "kecamatan": "Bareng"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.29732644053789,
+                    -7.681090743297794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Fattahul Muhibbin",
+                "kelurahan": "Sumberjo",
+                "kecamatan": "Wonosalam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.38952239636019,
+                    -7.657592997212568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Modern Amanatussalam",
+                "kelurahan": "Wonokerto",
+                "kecamatan": "Wonosalam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.37345916752487,
+                    -7.675303272681861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Sholawat Darut-Taubah",
+                "kelurahan": "Betek",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.34748907093599,
+                    -7.559283823751884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "AL MUNAWWIR",
+                "kelurahan": "Karobelah",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.35174266752387,
+                    -7.542132900171181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "I’ANATUTTHOLIBIN",
+                "kelurahan": "Dukuhdimoro",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.36402171354975,
+                    -7.560293445549124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Miftahus Sa’adah",
+                "kelurahan": "Mancilan",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.34610166752398,
+                    -7.561919639817929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al – Falah",
+                "kelurahan": "Tanggalrejo",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.3683225990858,
+                    -7.561797758234129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Babussalam",
+                "kelurahan": "Tanggalrejo",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.36789508000781,
+                    -7.583273002388497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Taman Pendidikan Al-Kautsar Mojoagung",
+                "kelurahan": "Karangwinongan",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.3485623120119,
+                    -7.577576597770273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "TAHFIDZUL QURAN NUR MUHAMMAD",
+                "kelurahan": "Dukuh Mojo",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.36520078212753,
+                    -7.58564457757606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP Minhajut Thullab Jombang",
+                "kelurahan": "Dukuhdimoro",
+                "kecamatan": "Mojoagung"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.35628853952275,
+                    -7.549578666774981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "TAHFIDZUL QURAN AL HAFIDZ",
+                "kelurahan": "Trawasan",
+                "kecamatan": "Sumobito"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.29938927775966,
+                    -7.519040456250911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP TAHFIDZUL QUR’AN AL ITQON",
+                "kelurahan": "Jogoroto",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27828044639357,
+                    -7.6038147561007605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Ribath Darul Manshur Mayangan",
+                "kelurahan": "Mayangan",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26489395038321,
+                    -7.568920718481989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. MIDANUTTA’LIM",
+                "kelurahan": "Mayangan",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.263670518936,
+                    -7.569116926813065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Nurul Qur`an",
+                "kelurahan": "Jogoroto",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27720252177035,
+                    -7.605423393919983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Yayasan Pondok Pesantren Tarbiyatul Qur’an Al Mujtahid",
+                "kelurahan": "Sumber Mulyo",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25897268000746,
+                    -7.558760415930368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Amanah Ploso",
+                "kelurahan": "Bawangan",
+                "kecamatan": "Ploso"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2145312423987,
+                    -7.436665680355596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Minhajul Abidin",
+                "kelurahan": "Janti",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2273300984601,
+                    -7.546676817992114
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Ghozaliyah",
+                "kelurahan": "Sumber Mulyo",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25913206408929,
+                    -7.558148429354202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "HAMALATUL QUR’AN",
+                "kelurahan": "Jogoroto",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26663093021646,
+                    -7.5913258786753754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Hamalatul Qur’an Putri Jogoroto",
+                "kelurahan": "Jarak Kulon",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2828890256065,
+                    -7.597782740931084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Darul Qur’an al Mahfudz",
+                "kelurahan": "Jogoroto",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28271736424587,
+                    -7.597442432196999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Tahfidhul Qur’an Roudlotul As’adiyah",
+                "kelurahan": "Sumber Mulyo",
+                "kecamatan": "Jogo Roto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25856166224422,
+                    -7.565406829226726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Tinggi Darul ‘Ulum Jombang",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27927453635252,
+                    -7.5430457967488005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. HIDAYATUL QUR’AN",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28069431674498,
+                    -7.543639881869256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Nahdlatoel ‘Oelum",
+                "kelurahan": "Sudimoro",
+                "kecamatan": "Megaluh"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.19098768821418,
+                    -7.493152794703762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Ar Rahmah",
+                "kelurahan": "Senden",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28824151215353,
+                    -7.496183806334478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul ‘Ulum Queen Al Azhar",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28028944321328,
+                    -7.542124600135318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. SULAIMAN-BILQIS",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27938855059442,
+                    -7.543002688532764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL MUBAROK DARUL ‘ULUM",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27588054846005,
+                    -7.544887968908669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul ‘Ulum Muzamzamah-Chosyi’ah-An’amta",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27808115403482,
+                    -7.5452893930992175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Ulum",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27572826580919,
+                    -7.543810072637714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul ‘Ulum As’adiyah",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2796402064193,
+                    -7.543746332120598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Hidayatul Qur`an",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27965751195495,
+                    -7.544122996810216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL KHODIJAH",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2767700579754,
+                    -7.544320760903736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Azhar",
+                "kelurahan": "Senden",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27614609597177,
+                    -7.544493729662188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AR-ROMEL",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2767700579754,
+                    -7.544320760903736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul ‘Ulum Hurun Inn",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27731505840525,
+                    -7.543293784624552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul ‘Ulum Nusantara",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27647601516654,
+                    -7.544334845067922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Ulum Al Falah",
+                "kelurahan": "Peterongan",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.27525198627703,
+                    -7.5439838198864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "JANNATURROICHAN",
+                "kelurahan": "Ngrandu Lor",
+                "kecamatan": "Peterongan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.29946637389317,
+                    -7.499638999586695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL GHOZALI PUTRI",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23704893675622,
+                    -7.51762043244761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Mardliyah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23331750080716,
+                    -7.521787969424245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Ikhlas Bahrul Ulum",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23337285144102,
+                    -7.521838622671444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL MALIKI 2 BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23887089455505,
+                    -7.518263607191697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "ANNAJIYAH 3 BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23687812175918,
+                    -7.519911061276078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Putra Putri Al Arifin",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21980910953158,
+                    -7.532610922514788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Muhajirin I",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23493150087845,
+                    -7.518327205442196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Asrama Sunan Ampel Putra",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21385927147014,
+                    -7.533436876574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "As-Sa’idiyyah 2",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23371612175914,
+                    -7.519264287815205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "An-Najiyah 2 Bahrul Ulum",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23759995991884,
+                    -7.522763692796945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Mamba`ul Ma`arif",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21822583577489,
+                    -7.5338347789165026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pondok Tahfidz Yanabiul Quran",
+                "kelurahan": "Sambong Dukuh",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2352297892336,
+                    -7.528844265377938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Wahabiyah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23681892175901,
+                    -7.517748053103932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Ad-Diin",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23592032874998,
+                    -7.518745421177679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PONPES AL-ISKANDARIYAH MAMBAUL MAÁRIF DENANYAR",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22066783878141,
+                    -7.533721692612036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Asy`ariyyah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23933515001606,
+                    -7.517726216485377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Abdul Aziz Al Manshurin",
+                "kelurahan": "Kepatihan",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23311378496513,
+                    -7.5425923243936355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Mudaawamatul Qur’an",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2199411392337,
+                    -7.541566594401267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Quran",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23933387421027,
+                    -7.5167957437960595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Lathifiyyah 1",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23571764419128,
+                    -7.518325514120591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL-AZIZIYAH",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24144677366202,
+                    -7.5179369614746925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pp Putri Al Lathifiyyah II Bahrul Ulum",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23448269496767,
+                    -7.518314614114172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "AL FATICH BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23323591150425,
+                    -7.519868933263662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AT-TAUFIQ",
+                "kelurahan": "Sambong Dukuh",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25507534025442,
+                    -7.5259026828477955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. SUNAN AMPEL",
+                "kelurahan": "Kepanjen",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23396476757513,
+                    -7.553785471260172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP CEMERLANG AN-NAJACH",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23899242807012,
+                    -7.520980174209702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "AL LATHIFIYYAH II",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23405214544611,
+                    -7.517456844303425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. SIROJUL ULUM",
+                "kelurahan": "Plandi",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2414788386886,
+                    -7.5711034923279925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Miftahul Ulum",
+                "kelurahan": "Kedung Betik",
+                "kecamatan": "Kesamben"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.28823425771064,
+                    -7.480644008445958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Maliki",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2372598421005,
+                    -7.519262878215749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. PUTRA AL-WAHABIYAH BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23401467559304,
+                    -7.517435118404622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL MIMBAR",
+                "kelurahan": "Sambong Dukuh",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23585397545473,
+                    -7.530999298393669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Yatama Indonesia Al-Fattah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23755580878938,
+                    -7.513003070820783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "Al Qur`an Al Falah",
+                "kelurahan": "Pojok Rejo",
+                "kecamatan": "Kesamben"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.34362809635887,
+                    -7.461758557019522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Mubtadi-Ien Bahrul Ulum",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23626038267288,
+                    -7.521311230866346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Hasbullah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23576991235304,
+                    -7.517309500902248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Tahfidzul Qur’an Rahmatul Ihsan",
+                "kelurahan": "Dapur Kejambon",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2559566416465,
+                    -7.515816514164231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AR-ROHMAH",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2362091319036,
+                    -7.519449553216573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darussalam",
+                "kelurahan": "Sengon",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21949163913663,
+                    -7.554728702677229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AZ ZIYADAH",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21988902739187,
+                    -7.53201529476207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PONPES PUTRI NUR KHODIJAH 3 MAMBAÚL MAÁRIF",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22271176384943,
+                    -7.532179590225995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Madienah",
+                "kelurahan": "Denanyar",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.21907179273437,
+                    -7.529162900683211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Assaidiyyah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23059709021707,
+                    -7.518928447670756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "SUNAN KALIJOGO",
+                "kelurahan": "Jati Duwur",
+                "kecamatan": "Kesamben"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2908731693712,
+                    -7.436846159480969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pondok Pesantren Tahfidz Roudhotul Qur'an",
+                "kelurahan": "Sumberjo",
+                "kecamatan": "Plandaan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.1779632154213,
+                    -7.420506762297688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "AL HAADI BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2384504654754,
+                    -7.518172949214154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Amanah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23289422597058,
+                    -7.513265053820074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. KYAI MOJO",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24600548160674,
+                    -7.511406608127326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "As-Salma",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23937072982613,
+                    -7.517237336397123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Pondok Pesantren HAMDALAH",
+                "kelurahan": "Jombok",
+                "kecamatan": "Kesamben"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.36868724672398,
+                    -7.474197928558434
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "PPP. AN-NAJIYAH BAHRUL ULUM",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.2347982349894,
+                    -7.519332013439277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "As-Salafiyyah Asy-Syafi`iyyah",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23411836601791,
+                    -7.5172707944330295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Madrosatul Qur’an",
+                "kelurahan": "Jombang",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.26007766854066,
+                    -7.5960519796037875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "PP. AL-MUHAJIRIN III",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23658899645328,
+                    -7.518734100707364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,12E+11",
+                "nama_pesantren": "MADINATUL QURAN JOMBANG",
+                "kelurahan": "Mojokrapak",
+                "kecamatan": "Tembelang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.22789126752353,
+                    -7.51171125729863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Ghozali",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23946790193283,
+                    -7.517606723034277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Amanah Putri Bahrul Ulum",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23592376295134,
+                    -7.520081111241776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al Manshuriah Al Ihsan",
+                "kelurahan": "Kali Kejambon",
+                "kecamatan": "Tembelang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.24617696752367,
+                    -7.511536910168413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,00E+11",
+                "nama_pesantren": "Al-Amanah",
+                "kelurahan": "Mojokrapak",
+                "kecamatan": "Tembelang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.23242304488727,
+                    -7.43144752175841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Darul Ulum Kepuhdoko",
+                "kelurahan": "Kepuh Doko",
+                "kecamatan": "Tembelang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.25435892283379,
+                    -7.449881716953112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "nsp": "5,10E+11",
+                "nama_pesantren": "Al-Muhibbin",
+                "kelurahan": "Tambak Rejo",
+                "kecamatan": "Jombang"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.234375392391,
+                    -7.52226453349203
+                ]
+            }
+        }
+    ]
+}

@@ -30,7 +30,7 @@ const FilterForm = ({ onFilter, kecamatanList, kelurahanList, style }) => {
         Kecamatan:
         <select value={kecamatan} onChange={(e) => handleFilterChange('kecamatan', e.target.value)}>
           <option value="">Pilih Semua</option>
-          {kecamatanList.map((kecamatan, index) => (
+          {kecamatanList.sort((a, b) => a.localeCompare(b)).map((kecamatan, index) => (
             <option key={index} value={kecamatan}>{kecamatan}</option>
           ))}
         </select>
@@ -39,19 +39,19 @@ const FilterForm = ({ onFilter, kecamatanList, kelurahanList, style }) => {
         Kelurahan:
         <select value={kelurahan} onChange={(e) => handleFilterChange('kelurahan', e.target.value)}>
           <option value="">Pilih Semua</option>
-          {kelurahanList.map((kelurahan, index) => (
+          {kelurahanList.sort((a, b) => a.localeCompare(b)).map((kelurahan, index) => (
             <option key={index} value={kelurahan}>{kelurahan}</option>
           ))}
         </select>
       </label>
-      <label>
+      {/* <label>
         Status:
         <select value={status} onChange={(e) => handleFilterChange('status', e.target.value)}>
           <option value="">Pilih Status</option>
           <option value="Aktif">Aktif</option>
           <option value="Tidak Aktif">Tidak Aktif</option>
         </select>
-      </label>
+      </label> */}
     </form>
   );
 };
