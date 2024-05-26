@@ -1,10 +1,11 @@
-// src/MapComponent.js
-import React, { useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import React, { useState, useEffect } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from 'react-leaflet';
 import L from 'leaflet';
 import Legend from './Legend';
 import './MapComponent.css';
 import FilterForm from './FilterForm';
+import PesantrenJombang from './pesantren_jombang.geojson';
+import KabupatenJombang from './KABUPATEN_JOMBANG.geojson';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -15,17 +16,38 @@ L.Icon.Default.mergeOptions({
 });
 
 const MapComponent = () => {
-  const [markers, setMarkers] = useState([
-    { position: [-7.5492, 112.2333], district: 'Kecamatan1', category: 'Kategori1', status: 'Aktif' },
-  ]);
-  const [filteredMarkers, setFilteredMarkers] = useState(markers);
+  const [markers, setMarkers] = useState([]);
+  const [filteredMarkers, setFilteredMarkers] = useState([]);
+  const [geojsonData, setGeojsonData] = useState(null);
+
+  useEffect(() => {
+    fetch(PesantrenJombang)
+      .then(response => response.json())
+      .then(data => {
+        const newMarkers = data.features.map(feature => ({
+          position: [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+          name: feature.properties.nama_pesantren,
+          kecamatan: feature.properties.kecamatan,
+          kelurahan: feature.properties.kelurahan,
+          coordinate: feature.geometry.coordinates
+        }));
+        setMarkers(newMarkers);
+        setFilteredMarkers(newMarkers);
+      });
+
+      fetch(KabupatenJombang) 
+      .then(response => response.json())
+      .then(data => {
+        setGeojsonData(data);
+      });
+  }, []);
 
   const handleFilter = (filters) => {
     const { district, category, status } = filters;
     let filtered = markers;
 
     if (district) {
-      filtered = filtered.filter(marker => marker.district === district);
+      filtered = filtered.filter(marker => marker.kecamatan === district);
     }
     if (category) {
       filtered = filtered.filter(marker => marker.category === category);
@@ -44,13 +66,21 @@ const MapComponent = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
+
+        {geojsonData && <GeoJSON data={geojsonData} style={() => ({
+          color: 'brown',
+          weight: 2,
+          opacity: 0.5,
+        })} />}
+
         {filteredMarkers.map((marker, index) => (
           <Marker key={index} position={marker.position}>
             <Popup>
               <div>
-                <strong>Kecamatan:</strong> {marker.district}<br />
-                <strong>Kategori:</strong> {marker.category}<br />
-                <strong>Status:</strong> {marker.status}
+                <h4>{marker.name}</h4>
+                <strong>Kecamatan:</strong> {marker.kecamatan}<br />
+                <strong>Kelurahan:</strong> {marker.kelurahan}<br />
+                <strong>Koordinat:</strong> {marker.coordinate[0]} {marker.coordinate[1]}
               </div>
             </Popup>
           </Marker>
