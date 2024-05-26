@@ -1,0 +1,30 @@
+/* src/FilterForm.css */
+.filter-form {
+    background: white;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filter-form select {
+    width: 150px;
+    padding: 5px;
+  }
+  
+  .filter-form button {
+    padding: 5px 10px;
+    height: fit-content;
+    align-self: flex-end;
+  }
+  
