@@ -4,6 +4,7 @@ import L from 'leaflet';
 import Legend from './Legend';
 import './MapComponent.css';
 import FilterForm from './FilterForm';
+import TileSelector from './TileSelector';
 import PesantrenJombang from '../geojson/pesantren_jombang.geojson';
 import KabupatenJombang from '../geojson/KABUPATEN_JOMBANG.geojson';
 import JombangKecamatan from '../geojson/jombang_kecamatan.geojson';
@@ -28,7 +29,9 @@ const MapComponent = () => {
   const [kelurahanList, setKelurahanList] = useState([]);
   const [kecamatanColors, setKecamatanColors] = useState({});
   const [isCheckedKecamatan, setIsCheckedKecamatan] = useState(false);
-  const [isCheckedKabupaten, setIsCheckedKabupaten] = useState(false); // New state for Kabupaten Jombang layer
+  const [isCheckedKabupaten, setIsCheckedKabupaten] = useState(true);
+  const [tileLayer, setTileLayer] = useState("osm");
+  const [pondokCount, setPondokCount] = useState({});
 
   useEffect(() => {
     fetch(PesantrenJombang)
@@ -52,6 +55,15 @@ const MapComponent = () => {
         });
         setKecamatanList(Array.from(kecamatanSet).sort((a, b) => a.localeCompare(b)));
         setKelurahanList(Array.from(kelurahanSet).sort((a, b) => a.localeCompare(b)));
+
+        
+
+        const count = {};
+        newMarkers.forEach(marker => {
+          const kecamatanUpperCase = marker.kecamatan.toUpperCase().replace(/\s/g, '');
+          count[kecamatanUpperCase] = (count[kecamatanUpperCase] || 0) + 1;
+        });
+        setPondokCount(count);
       });
 
     fetch(KabupatenJombang)
@@ -64,14 +76,13 @@ const MapComponent = () => {
       .then(response => response.json())
       .then(data => {
         const newPolygons = data.features.map(feature => {
-          const coordinates = feature.geometry.coordinates[0]; // Pastikan koordinat berada di dalam indeks yang benar
+          const coordinates = feature.geometry.coordinates[0]; 
           return {
-            positions: coordinates.map(coord => [coord[1], coord[0]]), // Pastikan koordinat diambil dengan urutan yang benar
+            positions: coordinates.map(coord => [coord[1], coord[0]]), 
             kecamatan: feature.properties.KECAMATAN
           };
         });
 
-        // Generate random colors for each kecamatan
         const colors = {};
         newPolygons.forEach(polygon => {
           const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
@@ -112,26 +123,31 @@ const MapComponent = () => {
     setIsCheckedKabupaten(!isCheckedKabupaten); 
   };
 
+  function capitalizeFirstLetter(string) {
+    return string.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  }
+
   return (
     <div className="map-container">
+      <TileSelector tileLayer={tileLayer} setTileLayer={setTileLayer} />
       <MapContainer center={[-7.5492, 112.2333]} zoom={11} style={{ height: "100vh", width: "100%" }}>
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url={tileLayer === "osm" ? "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" : "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"}
+          attribution={tileLayer === "osm" ? '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' : '&copy; <a href="https://www.google.com/permissions/geoguidelines/">Google</a>'}
         />
-
+  
         {isCheckedKabupaten && geojsonData && <GeoJSON data={geojsonData} style={() => ({
           color: 'brown',
           weight: 2,
           opacity: 0.8,
         })} />}
-
+  
         {isCheckedKecamatan && jombangKecamatanData && jombangKecamatanData.map((feature, index) => (
           <Polygon key={index} positions={feature.positions} pathOptions={{ color: kecamatanColors[feature.kecamatan], fillColor: kecamatanColors[feature.kecamatan], fillOpacity: 0.6 }} >
-            <Popup>{feature.kecamatan}</Popup>
+            <Popup>{feature.kecamatan} - Pondok Pesantren: {pondokCount[feature.kecamatan]}</Popup>
           </Polygon>
         ))}
-
+  
         {filteredMarkers.map((marker, index) => (
           <Marker key={index} position={marker.position}>
             <Popup>
@@ -145,14 +161,14 @@ const MapComponent = () => {
           </Marker>
         ))}
       </MapContainer>
-      <Legend />
+      <Legend kecamatanColors={kecamatanColors} />
       <img src={MataAngin} alt="Mata Angin" className="mata-angin" />
       <ToggleLayerKecamatan label="Show Kecamatan" isChecked={isCheckedKecamatan} onToggle={handleToggleLayerKecamatan} />
       <ToggleLayer label="Show Kabupaten" isChecked={isCheckedKabupaten} onToggle={handleToggleLayerKabupaten} />
       <FilterForm onFilter={handleFilter} kecamatanList={kecamatanList} kelurahanList={kelurahanList} style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)' }} />
-     
+      <TileSelector tileLayer={tileLayer} setTileLayer={setTileLayer} />
     </div>
   );
-};
+}
 
 export default MapComponent;
