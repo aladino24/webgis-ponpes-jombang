@@ -7,6 +7,7 @@ import FilterForm from './FilterForm';
 import PesantrenJombang from './pesantren_jombang.geojson';
 import KabupatenJombang from './KABUPATEN_JOMBANG.geojson';
 
+
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -19,9 +20,11 @@ const MapComponent = () => {
   const [markers, setMarkers] = useState([]);
   const [filteredMarkers, setFilteredMarkers] = useState([]);
   const [geojsonData, setGeojsonData] = useState(null);
+  const [kecamatanList, setKecamatanList] = useState([]);
+  const [kelurahanList, setKelurahanList] = useState([]);
 
   useEffect(() => {
-    fetch(PesantrenJombang)
+    fetch(PesantrenJombang) 
       .then(response => response.json())
       .then(data => {
         const newMarkers = data.features.map(feature => ({
@@ -33,9 +36,18 @@ const MapComponent = () => {
         }));
         setMarkers(newMarkers);
         setFilteredMarkers(newMarkers);
+
+        const kecamatanSet = new Set();
+        const kelurahanSet = new Set();
+        data.features.forEach(feature => {
+          kecamatanSet.add(feature.properties.kecamatan);
+          kelurahanSet.add(feature.properties.kelurahan);
+        });
+        setKecamatanList(Array.from(kecamatanSet));
+        setKelurahanList(Array.from(kelurahanSet));
       });
 
-      fetch(KabupatenJombang) 
+    fetch(KabupatenJombang)
       .then(response => response.json())
       .then(data => {
         setGeojsonData(data);
@@ -43,14 +55,14 @@ const MapComponent = () => {
   }, []);
 
   const handleFilter = (filters) => {
-    const { district, category, status } = filters;
+    const { kecamatan, kelurahan, status } = filters;
     let filtered = markers;
 
-    if (district) {
-      filtered = filtered.filter(marker => marker.kecamatan === district);
+    if (kecamatan) {
+      filtered = filtered.filter(marker => marker.kecamatan === kecamatan);
     }
-    if (category) {
-      filtered = filtered.filter(marker => marker.category === category);
+    if (kelurahan) {
+      filtered = filtered.filter(marker => marker.kelurahan === kelurahan);
     }
     if (status) {
       filtered = filtered.filter(marker => marker.status === status);
@@ -87,7 +99,7 @@ const MapComponent = () => {
         ))}
       </MapContainer>
       <Legend />
-      <FilterForm onFilter={handleFilter} style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)' }} />
+      <FilterForm onFilter={handleFilter} kecamatanList={kecamatanList} kelurahanList={kelurahanList} style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)' }} />
     </div>
   );
 };

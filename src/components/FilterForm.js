@@ -1,16 +1,15 @@
-// src/FilterForm.js
 import React, { useState } from 'react';
 import './FilterForm.css';
 
 const FilterForm = (props) => {
-  const { onFilter, style } = props;
+  const { onFilter, kecamatanList, kelurahanList, style } = props;
   const [district, setDistrict] = useState('');
-  const [category, setCategory] = useState('');
+  const [kelurahan, setKelurahan] = useState('');
   const [status, setStatus] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onFilter({ district, category, status });
+    onFilter({ district, kelurahan, status });
   };
 
   return (
@@ -19,16 +18,18 @@ const FilterForm = (props) => {
         Kecamatan:
         <select value={district} onChange={(e) => setDistrict(e.target.value)}>
           <option value="">Pilih Kecamatan</option>
-          <option value="Kecamatan1">Kecamatan1</option>
-          <option value="Kecamatan2">Kecamatan2</option>
+          {kecamatanList.map((kecamatan, index) => (
+            <option key={index} value={kecamatan}>{kecamatan}</option>
+          ))}
         </select>
       </label>
       <label>
-        Kategori:
-        <select value={category} onChange={(e) => setCategory(e.target.value)}>
-          <option value="">Pilih Kategori</option>
-          <option value="Kategori1">Kategori1</option>
-          <option value="Kategori2">Kategori2</option>
+        Kelurahan:
+        <select value={kelurahan} onChange={(e) => setKelurahan(e.target.value)}>
+          <option value="">Pilih Kelurahan</option>
+          {kelurahanList.map((kelurahan, index) => (
+            <option key={index} value={kelurahan}>{kelurahan}</option>
+          ))}
         </select>
       </label>
       <label>
@@ -39,6 +40,7 @@ const FilterForm = (props) => {
           <option value="Tidak Aktif">Tidak Aktif</option>
         </select>
       </label>
+      <button type="submit">Filter</button>
     </form>
   );
 };
