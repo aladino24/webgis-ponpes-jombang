@@ -4,7 +4,7 @@ import './MapTitle.css';
 const MapTitle = () => {
   return (
     <div className="map-title">
-      PETA PONDOK PESANTREN DI KAB.JOMBANG
+      PETA PONDOK PESANTREN DI KABUPATEN JOMBANG
     </div>
   );
 };
