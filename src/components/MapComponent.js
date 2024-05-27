@@ -11,6 +11,7 @@ import JombangKecamatan from '../geojson/jombang_kecamatan.geojson';
 import ToggleLayerKecamatan from './ToggleLayerKecamatan';
 import ToggleLayer from './ToggleLayer';
 import MataAngin from '../assets/mata-angin.png';
+import MapTitle from './MapTitle';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -32,6 +33,7 @@ const MapComponent = () => {
   const [isCheckedKabupaten, setIsCheckedKabupaten] = useState(true);
   const [tileLayer, setTileLayer] = useState("osm");
   const [pondokCount, setPondokCount] = useState({});
+  const [mapTitle, setMapTitle] = useState({});
 
   useEffect(() => {
     fetch(PesantrenJombang)
@@ -161,6 +163,7 @@ const MapComponent = () => {
           </Marker>
         ))}
       </MapContainer>
+      <MapTitle mapTitle={mapTitle} setMapTitle={setMapTitle}/>
       <Legend kecamatanColors={kecamatanColors} />
       <img src={MataAngin} alt="Mata Angin" className="mata-angin" />
       <ToggleLayerKecamatan label="Show Kecamatan" isChecked={isCheckedKecamatan} onToggle={handleToggleLayerKecamatan} />
